@@ -1,12 +1,40 @@
-Iam Mussa
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+Ian Kimble.
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+About Me Activity: Part 1
 
-</body>
-</html>
+Please copy and paste the questions below and answer them in 
+the aboutme.txt file we created a few days ago. When your finish, submit
+your activity by using the source control button. Remember: before you 
+can successfully submit your work you need to provide a comment/ description
+in the text box in soucre control to submit your work. 
+
+1. In a 3-4 sentences, please tell me about yourself. What are your hobbies outside of school.  
+my name is mussa baikro. I was born on augusts 24 2009. my hobbies outside of school is playing basketball and going to the ymca. other hobbies i have is wathching football. 
+
+2. Do you have someone in your network of family and friends that works in tech? If yes, please
+describe what they do and how you are connected to them.
+
+No
+
+3. Do you plan on attending college? If yes, what are you interested in studying 
+(if you know you want to got to college, but unsure of what you want to study, thats alright.)
+
+yes i plan on attending college, ill be intesrested in studying enginerring.
+
+4. In your own words, what do you think will be the hardest thing about learning coding?
+
+i think the hardest thing will be learning all the spiecaal key and creating websites.
+
+5. Bonus:
+Do you watch the NFL? If yes, who is your favorite team, and what will your teams record
+be at the end of the season?
+
+saint and the bengals. The saints record will be 14-4. The bengals 12-6.
+
+About Me Activity: Part 2
+
+Once you have completed the first part of this activity, please use the following
+link below to complete the course kickoff survey.     
+
+Survey link:
+https://forms.gle/HCLfdGwUqoz1smjW9
