@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <style>
-    .divRules{
-      background-color:bisque;
-      height:50px;
-      width:75px;
-      margin:10px;
+    .divRules {
+      background-color: bisque;
+      height: 50px;
+      width: 75px;
+      margin: 10px;
     }
-    .gridContainer{
+
+    .mainContainer {
       display: grid;
-      grid-template-columns: auto auto ;
+      grid-template-columns: auto auto auto;
     }
   </style>
 </head>
 
-<body class="gridContainer">
-  <div class="divRules">1</div>
-  <div class="divRules">2</div>
-  <div class="divRules">3</div>
-  <div class="divRules">4</div>
-  <div class="divRules">5</div>
-  <div class="divRules">6</div>
-  <div class="divRules">7</div>
+<body>
+  <div class="divRules" style="width: 1800px">1</div>
+
+  <div class="mainContainer">
+    <div class="divRules" style="width: 900px; height: 300px;">2</div>
+    <div class="divRules" style="width: 800px; height: 300px">3</div>
+  </div>
+<div class="mainContainer">
+  <div class="divRules" style="width: 500px; height: 300px;">4</div>
+  <div class="divRules" style="width: 500px; height: 300px">5</div>
+  <div class="divRules" style="width: 500px; height: 300px">6</div>
+</div>
+  <div class="divRules" style="width: 1800px">7</div>
 
 </body>
+
 </html>
