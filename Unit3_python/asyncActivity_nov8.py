@@ -1,5 +1,5 @@
 a = '?'
-b = a * 100  # This will create a string of 100 '?' characters, not a numerical value
+b = a * 100  # This will create a string of 100 '?' characters, not a value
 print(b)  # This will print 100 '?' characters in a row, not the number 300
 
 a = 3  # Use a number, not a string
@@ -7,7 +7,7 @@ b = a * 100  # Now b will be 300, since 3 * 100 = 300
 print(b)
 
 let a = '?'
-let b = a * b  // Error: b is undefined here
+let b = a * b  // : b is undefined here
 console.log(b)
 
 var x = 12
