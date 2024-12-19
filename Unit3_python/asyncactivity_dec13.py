@@ -13,10 +13,7 @@ def shppingDiscont(membership, itemName, itemPrice):
             print(' you do not have any memebership benefits')
 
             shippingdiscount('')
-
-
-
-        
+    
         
         def membership_discount(membership, item item_price):
     discounts = {
