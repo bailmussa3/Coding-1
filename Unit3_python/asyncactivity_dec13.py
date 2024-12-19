@@ -15,22 +15,6 @@ def shppingDiscont(membership, itemName, itemPrice):
             shippingdiscount('')
 
 
-def movie_ticket_price(age):
-    if age <= 10:
-        return "The ticket price is $5.00."
-    elif age >= 16 and age < 20:
-        return "The ticket price is $10.00."
-    elif age >= 20 and age < 65:
-        return "The ticket price is $15.00."
-    elif age >= 65:
-        return "The ticket price is $5.00."
-    else:
-        return "Invalid age."
-
-        print(movie_ticket_price(10))   # Output: "The ticket price is $5.00."
-         print(movie_ticket_price(18))   # Output: "The ticket price is $10.00."
-          print(movie_ticket_price(30))   # Output: "The ticket price is $15.00."
-        print(movie_ticket_price(70))   # Output: "The ticket price is $5.00."
 
         
         
