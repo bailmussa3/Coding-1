@@ -1,0 +1,74 @@
+Q: In your own words, describe what a function is. Please write your response in a complete sentence as a string data type. 
+
+A: a function is a block of code that is designed to do specific task and can be reused multiple times throughout a program.
+
+Q: In your own words, describe the difference between a function parameter and a function argument. Please write your response in a complete sentenc as a string data typee.
+
+A: The difference between a function parameter and function argument is that a function parameter is a varible listed in the function acts as placeholder for the vaule. A function argument is actual vaules passed to the function when it is called.
+
+Q: In your own words, describe what an if/ else conditional statement is. Please write your response in a complete sentence as a string data type.
+
+A: if/else condtional statement is a program construct that allows the program to put one block of code if a condition is true, and another block of code if the condition is false."
+
+Q: What is an integer data type? Please write your response in a complete sentence as a string data type.
+
+A: integer data type is a type of data that shows whole numbers that can be positive, negative, or zero, and does't havee decimal points.
+
+
+Q: What is a boolean data type? Please write your response in a complete sentence as a string data type.
+ 
+ A: bolean data type is a data that shows a logical value that can be true or false.
+
+ Which operator would work best for the following function: An age verification function that needs to check if a user is a certain age and older to purchase a video game.
+
+Age Verification Function: (18) 
+Operator: >= (greater than or equal to)
+Explanation: To check if the user is a certain age or older, the best operator is >=. This checks if the user’s age is greater than or equal to the number
+
+Which operator would work best for the following function: An office security function that needs to have a specific alpha-numeric code to be entered in order to enter and exit a building.
+
+Office Security Function (Alpha-numeric Code Check):
+Operator: == (equal to)
+Explanation: To check if the code entered matches the correct security code, use the == operator to compare the entered code to the correct one.
+
+You have been hired by Github to help them fix their password system. They would like you to create A function that will check how long a password is. Your program should be able to accept a alpha-numeric password and check if the password is more or less than 10 characters long. if the password is longer than 10 characters, your program should tell the user that their password is too long. If the password is under 4 characters the function should tell the user the password is too short. If the password meets the length criteria, there should be a message confirming to the user that their password was created successfully.
+
+Operator: len() (to count) and conditional checks (<, >, ==)
+Explanation: You need to check the length of the password and compare it using < > and == operators to the correct feedback.
+
+
+You have been hired as an engineer to develop a federal income tax function for a tax agency. They would like to be able to take in a user's annual income ammount and check how much money a person will need to pay in taxes based on the amount passed into the function.
+Provided are income amounts and how much they will be taxed:
+
+Operator: >=, <=, and basic arithmetic
+Explanation: You will need to use the >= and <= operators to check which tax bracket the income falls into and then calculate the tax based on the percentages.
+
+If a user makes between 0.00 and 12000.00 per year, they will be taxed 10%, plus an additional 3% for the state.
+
+A:tax_rate = 0.10 + 0.03  # 10% federal + 3% state
+ 
+If a user makes between 12001.00 and 50000.00 per year, they will be taxed 12%, plus an additional 3% for the state.
+
+A:tax_rate = 0.12 + 0.03  # 12% federal + 3% state
+
+If a user makes between 50001.00 and 103000.00, they will be taxed 22%, plus and additional 3% for the state.
+A:tax_rate = 0.22 + 0.03  # 22% federal + 3% state
+
+If a user makes between 103001.00 and 198000.00, they will be taxed 23%, plus and additional 3% for the state.
+A:tax_rate = 0.23 + 0.03  # 23% federal + 3% state
+
+Your function should return how much money the person owes in taxes based on the amount of money they provided.
+
+else:  return "Income is too high to cal tax."
+    
+
+You have applied to several colleges in the state of PA and as your final project, you must create a function that will inform you on whether you will be admitted into the school based on the schools' reccomendation letter criteria. Your function should take in the name of the school along with whether it is TRUE or FALSE that you recieved a reccomendation letter from one of the staff members at Boys Latin
+
+"Temple University": 1,   # Mr. Paris gave a letter to Temple
+    "Penn State": 1,          # Mr. Kimble gave a letter to Penn State
+    "University of Pennsylvania": 2,  # Mr. Parker and Mr. Paris gave letters
+    "Cheyney University": 2    # Mr. Parker and Mr. Kimble gave letters
+
+
+
+.
