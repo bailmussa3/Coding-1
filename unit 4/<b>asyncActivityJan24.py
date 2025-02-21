@@ -16,7 +16,7 @@
         var number = parseInt(input);
 
         // Check if the input is a valid number
-        if (isNaN(number)) {
+        if (number) {
           console.log("Please enter a valid number.");
           return;
         }
